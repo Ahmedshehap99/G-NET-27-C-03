@@ -108,6 +108,25 @@
             ////from object to integer and from integer to long
             #endregion
 
+            #region Question08
+            ///*Q8: Fix this to avoid exceptions and print -1 if conversion isn’t
+            //    possible?
+            //    object o = 10;
+            //    long x = o;
+            //    Console.WriteLine(x);
+            // */
+
+            //object o = 10;
+
+            //if (long.TryParse(o?.ToString(), out long x))
+            //{
+            //    Console.WriteLine(x);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(-1);
+            //}
+            #endregion
 
         }
     }
