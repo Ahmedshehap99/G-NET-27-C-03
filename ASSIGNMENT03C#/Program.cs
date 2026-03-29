@@ -224,6 +224,16 @@
             ////A: int.Parse(s) → throws ArgumentNullException.
             ////B: Convert.ToInt32(s) → returns 0.
             #endregion
+            #region Question15
+
+            ///*Q15: Complete the line to print "Guest" when user is null,
+            //otherwise print the user name in uppercase:
+
+            //string? user = null;*/
+
+            //string? user = "null";
+            //Console.WriteLine(user?.ToUpper()??"Gest");
+            #endregion
 
         }
     }
