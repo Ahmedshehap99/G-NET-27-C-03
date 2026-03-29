@@ -176,6 +176,18 @@
 
 
             #endregion
+            #region Question12
+            ///*Q12: What happens here and if there is a problem, handle it
+            ////string? s = null;
+            ////Console.WriteLine(s!.Length);*/
+
+
+            ////Throws NullReferenceException because '!' only suppresses
+            ////the warning but does not prevent null at runtime.
+
+            //string? s = null;
+            //Console.WriteLine(s?.Length ??0);
+            #endregion
 
         }
     }
