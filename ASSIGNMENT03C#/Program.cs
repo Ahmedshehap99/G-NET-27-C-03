@@ -161,6 +161,21 @@
 
             #endregion
 
+            #region Question11
+
+            ///*Q11: What’s wrong with this “safe” code and how can we solve it ?
+
+            ////string? s = null;
+            ////int x = int.Parse(s ?? "0");
+            ////Console.WriteLine(x);*/
+
+            ////int.Parse(null) throws ArgumentNullException.
+            //string? s = null;
+            //int x = Convert.ToInt32(s);
+            //Console.WriteLine(x);
+
+
+            #endregion
 
         }
     }
