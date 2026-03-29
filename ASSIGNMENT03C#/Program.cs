@@ -189,6 +189,21 @@
             //Console.WriteLine(s?.Length ??0);
             #endregion
 
+
+            #region Question13
+            ///*Q13: What will this print?
+            ////string? s = null;
+            ////int x = Convert.ToInt32(s);
+            ////Console.WriteLine(x);*/
+
+
+            //string? s = null;
+            //int x = Convert.ToInt32(s);
+            //Console.WriteLine(x);
+            ////Output: 0
+            #endregion
+
+
         }
     }
 }
