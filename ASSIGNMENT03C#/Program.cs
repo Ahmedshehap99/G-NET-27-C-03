@@ -16,9 +16,9 @@
 
 
             #endregion
-            
-                
-            
+
+
+
 
 
 
@@ -37,6 +37,17 @@
 
             //// convert value 2 to 2.0 
 
+
+
+            #endregion
+            #region Question03
+
+            /*Q3: You read a number from user input .. Write the correct line to
+                 get age as int.*/
+
+            //Console.WriteLine("Enter your age : ");
+            //int age;
+            //int.TryParse(Console.ReadLine(), out age);
 
 
             #endregion
