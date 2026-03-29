@@ -84,6 +84,18 @@
             //    Console.WriteLine("Invalid");
             //}
             #endregion
+            #region Question06
+
+            ////Q6: What will this print and explain why ?
+            //// Output = 11 .  
+
+            //object o = 10;
+            //int a = (int)o;//Unboxing (explicit cast) 
+            //Console.WriteLine(a + 1);
+
+
+            #endregion
+
 
         }
     }
