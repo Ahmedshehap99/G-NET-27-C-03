@@ -66,6 +66,25 @@
             //This code throws a FormatException because "12a" is not a valid integer format. 
 
             #endregion
+
+            #region Question05
+
+            ////Complete the code from the previous question so it prints
+            ////Invalid if conversion into int fails, otherwise prints the number
+
+            //string s = "12a";
+
+            //if (int.TryParse(s, out int x))
+            //{
+            //    Console.WriteLine(x);
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+            #endregion
+
         }
     }
 }
