@@ -203,6 +203,27 @@
             ////Output: 0
             #endregion
 
+            #region Question14
+
+            ///*Q14: Compare results and explain each result :
+
+            ////string? s = null;
+            //// A
+            //// int a = int.Parse(s);
+            //// B
+            ////int b = Convert.ToInt32(s);
+            ////Console.WriteLine(b);*/
+
+            //string? s = null;
+
+            //int a = int.Parse(s);
+            //Console.WriteLine(s);
+
+            //int b = Convert.ToInt32(s);
+            //Console.WriteLine(b);
+            ////A: int.Parse(s) → throws ArgumentNullException.
+            ////B: Convert.ToInt32(s) → returns 0.
+            #endregion
 
         }
     }
