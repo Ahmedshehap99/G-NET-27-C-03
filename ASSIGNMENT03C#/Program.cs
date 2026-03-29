@@ -53,6 +53,19 @@
             #endregion
 
 
+
+
+            #region Question04
+
+
+            /*Q4: What happens here and why ?
+                  string s = "12a";
+                  int x = int.Parse(s);
+                  Console.WriteLine(x);*/
+
+            //This code throws a FormatException because "12a" is not a valid integer format. 
+
+            #endregion
         }
     }
 }
