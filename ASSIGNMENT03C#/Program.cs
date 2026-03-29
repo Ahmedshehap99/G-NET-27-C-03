@@ -95,6 +95,18 @@
 
 
             #endregion
+            #region Question07
+
+            ///*Q7: What will this print and explain why and if there is a problem handle it ?*/
+
+            //object o = 10;
+            //long x = (long)(int)o;
+            //Console.WriteLine(x);
+
+
+            ////  first :InvalidCastException ,Must unbox to the exact original type first! 
+            ////from object to integer and from integer to long
+            #endregion
 
 
         }
