@@ -141,6 +141,27 @@
 
             #endregion
 
+            //Output:  null name?.Length returns null because name is null.
+
+
+
+
+
+            #region Question10
+            ///*Q10: What will this print and explain the process?
+
+            //string? name2 = null;
+            //int length = name2?.Length ?? 0*/
+
+            //string? name2 = null;
+            //int length = name2?.Length ?? 0;
+            //Console.WriteLine(length);
+
+            ////Output: 0 name2?.Length returns null, and ?? 0 assigns 0 instead.
+
+            #endregion
+
+
         }
     }
 }
