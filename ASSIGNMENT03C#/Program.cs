@@ -127,6 +127,19 @@
             //    Console.WriteLine(-1);
             //}
             #endregion
+            #region Question09
+
+            /*Q9: What will this print and explain why ?
+                string? name = null;
+                Console.WriteLine(name?.Length);
+             */
+
+
+            //Output:  null name?.Length returns null because name is null.
+
+
+
+            #endregion
 
         }
     }
